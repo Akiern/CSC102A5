@@ -1,0 +1,166 @@
+/*Daniel "Akiern" Courtemanche*/
+
+body
+/*All changes applied to body*/
+{
+    background-image: url(../Graphics/40KTau.jpg);
+    /*adding backgrouund image for location*/
+    background-position-x: center;
+    /*use specific code -x to control horizontal axis*/
+    height: 160vh;
+    /*view height of the page*/
+}
+
+button.eldarlinks
+{
+    position:absolute; right: 80px; top: 250px;
+    height: 50px;
+    width: 100px;
+    background-image: url(../Graphics/40KEldar.jpg);
+    background-size: contain;
+    color: yellow;
+}
+
+button.orkslinks
+{
+    position:absolute; right: 80px; top: 310px;
+    height: 50px;
+    width: 100px;
+    background-image: url(../Graphics/40KOrks.jpg);
+    background-size: contain;
+    color: yellow;
+}
+
+button.spacelinks
+{
+    position:absolute; right: 80px; top: 370px;
+    height: 50px;
+    width: 100px;
+    background-image: url(../Graphics/40KMarine.jpg);
+    background-size: contain;
+    color: yellow;
+}
+
+.clearout
+{
+    position:absolute; right: 10px;
+}
+
+div.table
+{
+    width: 80%;
+}
+
+h1
+/*All changes applied to h1*/
+{
+color: gold;
+/*text color with in parent*/
+text-align: center;
+/*aligns text center of the page*/
+font-size: 75px;
+/*text size based on pixel*/
+font-family:serif;
+/*font choice*/
+text-shadow: 1px 1px 10px yellowgreen;
+/*text shadow opsition vert,horiz,width color*/
+}
+
+h2
+{
+    color: goldenrod;
+}
+
+h3
+{
+    color: gold;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 10px darkgoldenrod;
+    /*text shadow opsition vert,horiz,width color*/
+}
+
+h4
+{
+    position:absolute; right: 25px; top: 175px;
+    color: gold;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 10px darkgoldenrod; 
+}
+
+p
+/*All changes applied to non id paragraph*/
+{
+color: goldenrod;
+/**/
+}
+
+table.unitTable 
+{
+    width: 100%;
+    background-color: gold;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+table.unitTable th 
+{
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    padding: 3px;
+    color: gold;
+}
+
+table.unitTable td 
+{
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    padding: 3px;
+    color: black;
+    text-align: center;
+}
+
+table.unitTable thead 
+{
+    background-color: orange;
+}
+
+table.weaponTable 
+{
+    width: 100%;
+    background-color: gold;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    color: goldenrod;
+}
+
+table.weaponTable th 
+{
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    padding: 3px;
+    color: gold;
+}
+
+table.weaponTable td 
+{
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    padding: 3px;
+    color: black;
+    text-align: center;
+}
+
+table.weaponTable thead 
+{
+    background-color: orange;
+}
